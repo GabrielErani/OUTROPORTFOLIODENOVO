@@ -6,10 +6,8 @@ const TypeWriter = () => {
             sequence={[
                 // Same substring at the start will only be typed out once, initially
                 'Gabriel Cirilo Erani',
-                2000, // wait 1s before replacing "Mice" with "Hamsters"
-                'Front-End Web developer',
                 2000,
-                'Future FullStack',
+                'Front-End Web developer',
                 2000,
             ]}
             wrapper="span"
