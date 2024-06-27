@@ -15,7 +15,7 @@ const HamburgerMenu = () => {
                 onClick={toggleSidebar}
             >
                 {isOpen ? (
-                    <XCircleIcon className="w-6 h-6 text-gray-800" />
+                    <XCircleIcon className="hidden" />
                 ) : (
                     <MenuIcon color="#ffffff" className="w-6 h-6 text-gray-800" />
                 )}
