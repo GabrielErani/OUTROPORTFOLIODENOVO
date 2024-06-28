@@ -13,7 +13,9 @@ const Home = () => {
                 <div className="h-full justify-center flex items-center">
                     <TypeWriter />
                 </div>
+                <a href="#Skills">
                 <ArrowDown color="#ffffff" size={50} className="mb-4"/>
+                </a>
             </section>
         </div>
     );
