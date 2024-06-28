@@ -9,13 +9,13 @@ function App() {
 <section className='h-screen w-screen flex justify-center items-center flex-col' id='Home'>
 <Home />
 </section>
-<section className='sm:h-screen h-fit w-screen bg-slate-200 flex justify-center items-center flex-col' id='Skills'>
+<section className='min-h-screen h-fit w-screen bg-slate-200 flex justify-center items-center flex-col' id='Skills'>
 <Skills /> 
 </section>
-<section className='h-screen w-screen '>
+<section className='min-h-screen h-fit w-screen  flex justify-center items-center flex-col'>
 
 </section>
-<section className='h-screen w-screen bg-slate-200'>
+<section className='min-h-screen h-fit w-screen bg-slate-200 flex justify-center items-center flex-col'>
 
 </section>
 
