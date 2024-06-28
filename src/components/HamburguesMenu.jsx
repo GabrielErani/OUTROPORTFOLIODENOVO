@@ -9,9 +9,9 @@ const HamburgerMenu = () => {
     };
 
     return (
-        <div className=" md:hidden block w-full flex justify-start items-center fixed">
+        <div className=" lg:hidden w-full flex justify-start items-center fixed">
             <button
-                className="p-2 focus:outline-none md:hidden"
+                className="p-2 focus:outline-none lg:hidden"
                 onClick={toggleSidebar}
             >
                 {isOpen ? (
@@ -22,7 +22,7 @@ const HamburgerMenu = () => {
             </button>
             <div
                 className={`fixed inset-0 bg-gray-800 bg-opacity-75 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'
-                    } transition-transform duration-300 ease-in-out md:hidden`}
+                    } transition-transform duration-300 ease-in-out lg:hidden`}
             >
                 <div className="flex w-full justify-end p-4">
                     <button onClick={toggleSidebar} >
@@ -31,10 +31,10 @@ const HamburgerMenu = () => {
                 </div>
                 <nav className="mt-10 p-4">
                     <ul className= "text-white text-2xl divide-y divide-slate-200 grid grid-cols-1 place-content-center gap-4">
-                        <li><a href="#home" onClick={toggleSidebar}>Home</a></li>
-                        <li><a href="#about" onClick={toggleSidebar}>Skills</a></li>
-                        <li><a href="#projects" onClick={toggleSidebar}>Projects</a></li>
-                        <li><a href="#contacts" onClick={toggleSidebar}>Contacts</a></li>
+                        <li><a href="#Home" onClick={toggleSidebar}>Home</a></li>
+                        <li><a href="#Skills" onClick={toggleSidebar}>Skills</a></li>
+                        <li><a href="#Projects" onClick={toggleSidebar}>Projects</a></li>
+                        <li><a href="#Contacts" onClick={toggleSidebar}>Contacts</a></li>
                     </ul>
                 </nav>
             </div>

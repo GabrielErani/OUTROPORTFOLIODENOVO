@@ -13,7 +13,7 @@ const TypeWriter = () => {
             wrapper="span"
             speed={30}
             repeat={Infinity}
-            className='text-5xl font-bold bg-gradient-to-br from-zinc-400 to-stone-100 bg-clip-text text-transparent m-4'
+            className='text-5xl font-bold bg-gradient-to-br from-zinc-400 to-stone-100 bg-clip-text text-transparent m-4 2xl:text-8xl'
         />
     );
 };
