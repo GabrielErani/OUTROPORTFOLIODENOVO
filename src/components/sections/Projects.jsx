@@ -8,9 +8,7 @@ const ProjectSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 h-fit w-full p-4">
                    <ImageCard image="/calculatorIphone.png" title={"Iphone Calculator"} />
                    <ImageCard image="/panificadora37.png" title={"Site para padaria"} />
-                   <div className="flex justify-center items-center h-full w-full">
-                   <h2 className="text-slate-200 text-2xl">Coming soon...</h2>
-                   </div>
+                   
                 </div>
             </div>
 );
