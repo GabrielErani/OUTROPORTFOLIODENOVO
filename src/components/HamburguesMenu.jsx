@@ -30,7 +30,7 @@ const HamburgerMenu = () => {
                     </button>
                 </div>
                 <nav className="mt-10 p-4">
-                    <ul className= "text-white text-2xl divide-y divide-slate-200 grid grid-cols-1 place-content-center gap-4">
+                    <ul className= "text-white text-2xl grid grid-cols-1 place-content-center gap-4">
                         <li><a href="#Home" onClick={toggleSidebar}>Home</a></li>
                         <li><a href="#Skills" onClick={toggleSidebar}>Skills</a></li>
                         <li><a href="#Projects" onClick={toggleSidebar}>Projects</a></li>
