@@ -34,7 +34,7 @@ const HamburgerMenu = () => {
                         <li><a href="#Home" onClick={toggleSidebar}>Home</a></li>
                         <li><a href="#Skills" onClick={toggleSidebar}>Skills</a></li>
                         <li><a href="#Projects" onClick={toggleSidebar}>Projects</a></li>
-                        <li><a href="#Contacts" onClick={toggleSidebar}>Contacts</a></li>
+                        <li><a href="#Contact" onClick={toggleSidebar}>Contacts</a></li>
                     </ul>
                 </nav>
             </div>
