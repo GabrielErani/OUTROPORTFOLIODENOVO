@@ -21,7 +21,7 @@ const HamburgerMenu = () => {
                 )}
             </button>
             <div
-                className={`fixed inset-0 bg-gray-800 bg-opacity-75 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'
+                className={`fixed inset-0 bg-gray-800 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'
                     } transition-transform duration-300 ease-in-out lg:hidden`}
             >
                 <div className="flex w-full justify-end p-4">
