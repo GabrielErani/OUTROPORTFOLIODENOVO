@@ -17,18 +17,4 @@ html {
     scroll-behavior: smooth;
   }
 
-    .navbar-hover::before {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      height: 2px;
-      background-color: rgba(255, 255, 255, 0.4);
-      transition: all 0.3s ease;
-      width: 0;
-    }
-  
-    .group:hover .navbar-hover::before {
-      width: 100%;
-      left: 0;
-      right: 0;
-    }
+    

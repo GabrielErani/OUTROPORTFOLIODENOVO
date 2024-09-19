@@ -9,9 +9,9 @@ const HamburgerMenu = () => {
     };
 
     return (
-        <div className="lg:hidden w-full flex justify-start items-center fixed z-50">
+        <div className="w-full flex justify-start items-center fixed z-50">
             <button
-                className="p-2 focus:outline-none lg:hidden"
+                className="p-2 focus:outline-none"
                 onClick={toggleSidebar}
             >
                 {isOpen ? (
@@ -21,8 +21,7 @@ const HamburgerMenu = () => {
                 )}
             </button>
             <div
-                className={`fixed inset-0 bg-black  transform ${isOpen ? 'translate-x-0' : '-translate-x-full'
-                    } transition-transform duration-300 ease-in-out lg:hidden flex flex-col`}
+                className={`fixed inset-0 bg-black transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out flex flex-col lg:w-1/2`}
             >
                 <div className="flex w-full justify-end p-4">
                     <button onClick={toggleSidebar}>
@@ -32,19 +31,19 @@ const HamburgerMenu = () => {
                 <nav className="mt-10 p-4 w-full">
                     <ul className="text-white text-lg flex flex-col gap-6">
                         <li className="w-full">
-                            <a href="#Home" onClick={toggleSidebar} className="flex items-center gap-4 px-4 py-3  rounded-lg hover:bg-gray-700 transition-all duration-200 ease-in-out">
+                            <a href="#Home" onClick={toggleSidebar} className="flex items-center gap-4 px-4 py-3 rounded-lg hover:bg-gray-700 transition-all duration-200 ease-in-out">
                                 <HomeIcon className="w-6 h-6" />
                                 Home
                             </a>
                         </li>
                         <li className="w-full">
-                            <a href="#Skills" onClick={toggleSidebar} className="flex items-center gap-4 px-4 py-3  rounded-lg hover:bg-gray-700 transition-all duration-200 ease-in-out">
+                            <a href="#Skills" onClick={toggleSidebar} className="flex items-center gap-4 px-4 py-3 rounded-lg hover:bg-gray-700 transition-all duration-200 ease-in-out">
                                 <UserIcon className="w-6 h-6" />
                                 Skills
                             </a>
                         </li>
                         <li className="w-full">
-                            <a href="#Projects" onClick={toggleSidebar} className="flex items-center gap-4 px-4 py-3  rounded-lg hover:bg-gray-700 transition-all duration-200 ease-in-out">
+                            <a href="#Projects" onClick={toggleSidebar} className="flex items-center gap-4 px-4 py-3 rounded-lg hover:bg-gray-700 transition-all duration-200 ease-in-out">
                                 <FolderIcon className="w-6 h-6" />
                                 Projects
                             </a>
