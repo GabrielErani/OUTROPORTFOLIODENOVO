@@ -15,7 +15,7 @@ export const Card = ({ children }) => {
                     }
                 }
             },
-            { threshold: 1.0 } // O card precisa estar 50% visível para ativar o hover
+            { threshold: 1.0 } // O card precisa estar 100% visível para ativar o hover
         );
 
         if (cardRef.current) {
