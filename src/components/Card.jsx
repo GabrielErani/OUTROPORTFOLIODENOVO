@@ -32,7 +32,7 @@ export const Card = ({ children }) => {
     return (
         <div
             ref={cardRef}
-            className={`bg-[#f5f7fa] shadow-lg p-6 flex flex-col justify-center items-center h-full w-full rounded-xl transition-all duration-300 transform ${isHovered ? 'scale-105 shadow-xl' : ''}`}
+            className={`bg-[#f5f7fa] shadow-lg p-6 flex flex-col justify-center items-center h-full w-full rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl ${isHovered ? 'scale-105 shadow-xl' : ''}`}
         >
             {children}
         </div>
