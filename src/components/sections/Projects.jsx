@@ -7,10 +7,11 @@ const ProjectSection = () => {
                 <h1 className="text-5xl font-bold  bg-gradient-to-br from-zinc-400 to-stone-100 bg-clip-text text-transparent p-4 2xl:text-8xl m-10">Projects</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 h-fit w-full p-4">
                    <ImageCard image="/calculatorIphone.png" title={"Iphone Calculator"} />
-                   <ImageCard image="/panificadora37.png" title={"Site para padaria"} />
+                   <ImageCard link={"https://panificadora37.com.br"} image="/panificadora37.png" title={"Site para padaria"} />
                    
                 </div>
             </div>
+            
 );
 }
 export default ProjectSection;

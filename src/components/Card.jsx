@@ -1,22 +1,22 @@
-export const Card = ({children}) => {
+export const Card = ({ children }) => {
     return (
-        <div className="border border-solid border-1 border-slate-400 p-4 flex flex-col justify-center items-center h-full w-full rounded-xl">
+        <div className="bg-[#f5f7fa] shadow-lg p-6 flex flex-col justify-center items-center h-full w-full rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
             {children}
         </div>
     );
 }
 
-export const CardIcon = ({children}) => {
+export const CardIcon = ({ children }) => {
     return (
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center mb-4">
             {children}
         </div>
     );
 }
 
-export const CardTitle = ({children}) => {
+export const CardTitle = ({ children }) => {
     return (
-        <div className="text-lg font-bold">
+        <div className="text-lg font-bold text-gray-700">
             {children}
         </div>
     );
