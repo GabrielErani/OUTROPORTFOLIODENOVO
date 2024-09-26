@@ -51,7 +51,7 @@ const HamburgerMenu = () => {
                         <li className="w-full">
                             <a href="#Contact" onClick={toggleSidebar} className="flex items-center gap-4 px-4 py-3 rounded-lg hover:bg-gray-700 transition-all duration-200 ease-in-out">
                                 <MailIcon className="w-6 h-6" />
-                                Contact
+                                Contact & Acknowledgements
                             </a>
                         </li>
                     </ul>
